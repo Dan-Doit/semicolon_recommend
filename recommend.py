@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 #
 # key = os.environ['PRISMA_ENDPOINT']
 
-client = GraphQLClient("https://semicolon-prisma-cd06ea9a65.herokuapp.com/semicolon/prod")
+client = GraphQLClient("END PAGE")
 
 arr = client.execute('''
 
